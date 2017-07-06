@@ -25,7 +25,7 @@ and open the template in the editor.
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class=""class="navbar-brand" class=""href="index.php">Inicio</a>
+                    <a class="navbar-brand" class=""href="index.php">Inicio</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <u1 class="nav navbar-nav navbar-right">
