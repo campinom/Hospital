@@ -49,7 +49,7 @@ and open the template in the editor.
 	</head>
 	<body>
 		<div class="form">
-                    <center><h1>Agendar hora</h1></center>
+                    <center><h1><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Agendar hora</h1></center>
 			<form action="guardar.php" method="POST">                              
 				<p>Nombre</p>
 				<input type="text" name="nombre" placeholder="Nombre" required>
@@ -94,7 +94,7 @@ and open the template in the editor.
 	margin:auto;
 }
 
-input[type=text],[type=edad],[type=direccion],[type=edad],[type=password]{
+input[type=text],[type=nombre],[type=hora],[type=edad],[type=direccion],[type=telefono]{
 	width:470px;
 	height:35px;
 	font: 14px normal normal uppercase helvetica, arial, serif;  
@@ -113,5 +113,9 @@ input[type=submit]{
 
 p{
 	font-size:24px;
+        color: white;
 }
 
+h1{
+    color: white;
+}
