@@ -37,7 +37,7 @@ and open the template in the editor.
         
         <div class="container">
             <div class="jumbotron">
-                <h1><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Hospital</h1>
+                <h1><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Hospital comunal</h1>
                 <p>
                      Aqui puede agendar una hora y/o cancelarla
                 </p>
