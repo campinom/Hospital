@@ -55,7 +55,11 @@ and open the template in the editor.
 				<p>Nombre</p>
 				<input type="text" name="nombre" placeholder="Nombre" required>
                                 <br>
-                                
+                                <br>
+                                <p>Hora</p>
+				<input type="text" name="hora" placeholder="Hora" required>
+                                <br>
+                                <br>                              
 				<input type="submit" value="Cancelar hora">
                                 <br>
                                 <br>
@@ -71,7 +75,7 @@ and open the template in the editor.
    .form{
 	position:relative;
 	width:500px;
-	height:280px;
+	height:390px;
 	padding-left: 20px;
 	padding-top: 15px;
 	background-color:#F51414;
