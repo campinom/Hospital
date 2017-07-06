@@ -39,7 +39,7 @@ and open the template in the editor.
             <div class="jumbotron">
                 <h1><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Hospital</h1>
                 <p>
-                     Aqui puede agendar una hora y cancelarla
+                     Aqui puede agendar una hora y/o cancelarla
                 </p>
             </div> 
         </div>
