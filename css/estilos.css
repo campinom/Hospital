@@ -1,0 +1,35 @@
+body{
+    background-image: url('../imagenes/asdasd.jpg');
+}
+
+.jumbotron{
+    background-color: #F51414;
+    color: white;
+     
+}
+
+.panel-heading{
+    background-color: #336600 !important;
+    color: #F51414 !important;
+}
+
+.navbar-brand:link, .navbar-brand:visited{
+    color: white !important;
+}
+
+.navbar-brand:hover, .navbar-brand:active{
+    color: #ffad33 !important;
+}
+
+.navbar{
+    background-color: #F51414 !important;
+}
+
+#navbar li a:link, #navbar li a:visited{
+    color: white !important;
+}
+
+#navbar li a:hover, #navbar li a:active{
+    color: #ffad33 !important;
+}
+
