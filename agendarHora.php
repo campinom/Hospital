@@ -51,24 +51,20 @@ and open the template in the editor.
 		<div class="form">
                     <center><h1><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Agendar hora</h1></center>
 			<form action="guardar.php" method="POST">                              
-				<p>Nombre</p>
-				<input type="text" name="nombre" placeholder="Nombre" required>
+				<p>Rut paciente</p>
+				<input type="text" name="rut" placeholder="Rut paciente" required>
                                 <br>
                                 <br>
-                                <p>Hora</p>
-				<input type="text" name="hora" placeholder="Hora" required>
+                                <p>Fecha</p>
+				<input type="text" name="fecha" placeholder="Fecha" required>
                                 <br>
                                 <br>
-				<p>Edad </p>
-				<input type="text" name="edad" placeholder="Edad">
+				<p>Hora</p>
+				<input type="text" name="hora" placeholder="Hora">
 				<br>
                                 <br>
-				<p>Direccion </p>
-				<input type="text" name="direccion" placeholder="Direccion" required>
-				<br>
-                                <br>
-                                <p>Telefono</p>
-                                <input type="text" name="telefono" placeholder="Telefono" required>
+				<p>Rut medico</p>
+				<input type="text" name="rutm" placeholder="Rut medico" required>
                                 <br>
 				<br>
 				<input type="submit" value="Agendar">
@@ -86,7 +82,7 @@ and open the template in the editor.
    .form{
 	position:relative;
 	width:500px;
-	height:690px;
+	height:600px;
 	padding-left: 20px;
 	padding-top: 15px;
 	background-color:#F51414;
