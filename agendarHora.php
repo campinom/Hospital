@@ -90,7 +90,7 @@ and open the template in the editor.
 	margin:auto;
 }
 
-input[type=text],[type=nombre],[type=hora],[type=edad],[type=direccion],[type=telefono]{
+input[type=text],[type=rut],[type=fecha],[type=hora],[type=rutm]{
 	width:470px;
 	height:35px;
 	font: 14px normal normal uppercase helvetica, arial, serif;  
@@ -103,7 +103,7 @@ input[type=submit]{
 	border-radius:20px;
 	margin-left: 150px;
 	border:0px;
-	background-color:#848484;
+	background-color:#C6C6C6;
 	font: 14px normal normal uppercase helvetica, arial, serif;
 }
 
