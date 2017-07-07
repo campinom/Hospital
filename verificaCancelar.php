@@ -1,7 +1,6 @@
 <?php
 
-class verificaCancelar {
-    
+   
 $PATH='lib/';
 include $PATH.'Conexion.php';
 include $PATH.'atencion.php';
@@ -11,5 +10,5 @@ $oAte->CancelarAtencion();
        
 
 ?>
-}
+
 

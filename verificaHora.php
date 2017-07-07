@@ -1,7 +1,6 @@
 <?php
 
-class verificaHora {
-    
+   
 $PATH='lib/';
 include $PATH.'Conexion.php';
 include $PATH.'atencion.php';
@@ -11,4 +10,4 @@ $oAte->AgendarAtencion();
        
 
 ?>
-}
+
