@@ -55,7 +55,7 @@ and open the template in the editor.
 	<body>
 		<div class="form">
                     <center><h1><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Agendar hora</h1></center>
-			<form action=".php" method="POST">                              
+                    <form action="verificaHora.php" method="POST">                              
 				<p>Rut paciente</p>
 				<input type="text" name="rut" placeholder="Rut paciente" required>
                                 <br>

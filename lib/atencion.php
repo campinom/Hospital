@@ -66,5 +66,21 @@ class atencion {
 }
  }
  
+ function CancelarAtencion(){
+     $oConn=new conexion();
+     
+     if ($oConn->Conectar())
+            $db=$oConn->objconn;
+        else
+            return false;
+     $sql="UPDATE atencion set estado='cancelado' where rut_paciente='190944883'";
+     if ($oConn->query($sql) === TRUE) {
+    echo "Hora cancelada";
+} else {
+    echo "No se ha podido cancelar la hora: " . $conn->error;
+}
+     
+ }
+ 
  
 }
