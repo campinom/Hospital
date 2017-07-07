@@ -50,7 +50,7 @@ and open the template in the editor.
 	</head>
 	<body>
 		<div class="form">
-                    <center><h1><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancelar hora</h1></center>
+                    <center><h1><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>  Cancelar hora</h1></center>
 			<form action="guardar.php" method="POST">                              
 				<p>Rut paciente</p>
 				<input type="text" name="nombre" placeholder="Rut paciente" required>
