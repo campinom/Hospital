@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -6,6 +9,8 @@ and open the template in the editor.
 -->
 <html lang="es">
     <head>
+    <a href="lib/atencion.php"></a>
+        
         <meta charset="UTF-8">  
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,7 +55,7 @@ and open the template in the editor.
 	<body>
 		<div class="form">
                     <center><h1><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Agendar hora</h1></center>
-			<form action="guardar.php" method="POST">                              
+			<form action=".php" method="POST">                              
 				<p>Rut paciente</p>
 				<input type="text" name="rut" placeholder="Rut paciente" required>
                                 <br>
